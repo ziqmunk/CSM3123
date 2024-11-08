@@ -1,0 +1,42 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        android:orderInCategory="100"
+        app:showAsAction="never">
+    <!-- Nested submenu -->
+        <menu>
+            <!-- Submenu items -->
+            <item
+                android:id="@+id/action_settings_general"
+                android:title="General Settings" />
+            <item
+                android:id="@+id/action_settings_privacy"
+                android:title="Privacy Settings" />
+            <item
+                android:id="@+id/action_settings_notifications"
+                android:title="Notification Settings" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_about"
+        android:title="About"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <!-- Adding more menu items -->
+    <item
+        android:id="@+id/action_profile"
+        android:title="Profile"
+        android:orderInCategory="101"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="Logout"
+        android:orderInCategory="102"
+        app:showAsAction="never" />
+</menu>
